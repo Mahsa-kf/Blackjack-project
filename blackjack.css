@@ -1,0 +1,87 @@
+
+body{
+    margin: 0;
+    background-color: rgb(158, 131, 131);
+    font-family: sans-serif;
+}
+
+.game-section{
+    margin:0 auto;
+    max-width: 900px;
+    background-color: rgb(224, 211, 211);
+    padding: 30px 30px 0 30px;
+    border-radius: 25px;
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.3)
+}
+
+#logo{
+    padding: 10px 20px 5px;
+}
+
+
+main{
+    padding: 30px;
+}
+
+#header{
+    background-color:black;
+}
+
+
+
+h2 {
+ text-transform: uppercase;
+ padding-left: 15px;
+ margin: 0;
+text-align: center;
+}
+
+#playerHeader{
+    margin-top: 20px;
+}
+
+.cards-container img{
+    height: 200px;
+    padding: 10px;
+    border-radius: 25px;
+}
+ 
+
+.btn-container {
+    text-align: center;
+}
+
+.btn-container button{
+    padding: 13px 20px 10px;
+    margin: 10px 0 0 10px;
+    font-size: 18px;
+    font-weight: bold ;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.3)
+
+    
+}
+
+
+.result{
+    font-size: 22px;
+    padding: 10px 20px 10px;     
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+.wins-container {
+    color: #278D27;
+    margin-right: 20px ;
+}
+.draws-container{
+    color:#5114DF;
+    margin-right: 20px ;
+}
+.losses-container{
+    color:#E21818;
+    margin-right: 20px ;
+}
